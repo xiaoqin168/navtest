@@ -1,0 +1,46 @@
+
+#menu ul{
+    
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+ul li {
+    background: url(./png/button_bg.png)no-repeat;
+    width: 85px;
+    margin-right: 15px;
+    border-radius: 15px;
+   padding:0 10px;
+   height: 40px; 
+   list-style-type: none;
+   line-height: 40px;
+   background-color:#CC6699;
+   text-align: center;
+   background-position:bottom left;
+   -webkit-transition: background-position 2s;
+}
+ul a{
+    font:12px;
+    text-decoration: none;
+    color:white;
+}
+li:hover{
+    transform:rotate(90deg);
+    -ms-transform:rotate(7deg); 	/* IE 9 */
+    -moz-transform:rotate(7deg); 	/* Firefox */
+    -webkit-transform:rotate(20deg); /* Safari 和 Chrome */
+    -o-transform:rotate(7deg); 
+    background-position:top left;
+}
+ .act{
+   
+    background-color:#83b185;
+    
+  
+} 
+.active{
+    color: white;
+    font:14px;
+    transition-delay:2s;
+}
